@@ -2,6 +2,10 @@
 
 A system for real-time greenhouse condition monitoring with secure data transmission using TLS and AES encryption.
 
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/LiveDemos.jpg" alt="image" width="600">
+</p>
+
 ## Table of Contents
 
 - [Overview](#overview)  
@@ -19,6 +23,11 @@ This project develops a real-time environmental monitoring system to optimize gr
 - PyQt5-based GUI for displaying data on a PC.
 - Reliable operation validated through live demonstration and Wireshark analysis.
 
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/SystemArchitecture.png" alt="image" width="500">
+</p>
+
+
 The system enhances greenhouse management by enabling management to adjust conditions dynamically, improving crop yields and resource efficiency.
 
 ## Hardware Components
@@ -30,7 +39,9 @@ The system enhances greenhouse management by enabling management to adjust condi
 
 **Wiring Configuration**:
 
-
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/Wiring.png" alt="image" width="500">
+</p>
 
 ## Software and Dependencies
 
@@ -78,12 +89,21 @@ The system enhances greenhouse management by enabling management to adjust condi
 
 ### Test Setup
 The system was tested with a Raspberry Pi, sensors, and a PC over a local network. Data was transmitted every 5 seconds using MQTT with TLS and AES-CBC encryption.
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/Data.png" alt="image" width="500">
+</p>
 
 ### Performance
 The GUI accurately displayed real-time data, with no errors during a one-hour live demonstration.
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/GUI.png" alt="image" width="300">
+</p>
 
 ### Security
 Wireshark captures confirmed successful TLSv1.2 handshakes and encrypted MQTT messages, ensuring secure communication.
+<p align="center">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/WiresharkCapture.png" alt="image" width="600">
+</p>
 
 ### Reproducibility
 The system is reproducible with the provided scripts, hardware, and setup instructions. Ensure correct certificate paths and AES keys for successful operation.
@@ -91,5 +111,5 @@ The system is reproducible with the provided scripts, hardware, and setup instru
 
 ---
 
-This system provides a reliable, secure, and user-friendly solution for greenhouse monitoring, with potential for future integration with autonomous control systems.
+This system provides a reliable and secure solution for greenhouse monitoring, with potential for future integration with autonomous control systems.
 
