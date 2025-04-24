@@ -24,7 +24,7 @@ This project develops a real-time environmental monitoring system to optimize gr
 - Reliable operation validated through live demonstration and Wireshark analysis.
 
 <p align="center">
-  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/SystemArchitecture.png" alt="image" width="500">
+  <img src="https://github.com/rpi-iot-projects/Team-14-Real-Time-Environment-Monitoring-System-for-Greenhouses/blob/main/pics/SystemArchitecture.png" alt="image" width="300">
 </p>
 
 
